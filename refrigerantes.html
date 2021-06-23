@@ -78,7 +78,7 @@
                 .then(objeto =>{
                     while(c < objeto.length) {
                     //console.log(objeto[c]['nome'])
-                    lista = lista +'<a href="#" class="list-group-item list-group-item-action" id="taga"><img src="imagens/images.jpg" class="rounded float-start" alt="..." id="tagimg"><p class="text-center fw-bold ">'+objeto[c]['nome'].toUpperCase()+'<br><i class="text-success">R$'+objeto[c]['valor']+'</i></p>'
+                    lista = lista +'<a href="#" class="list-group-item list-group-item-action" id="taga"><img src="images.jpg" class="rounded float-start" alt="..." id="tagimg"><p class="text-center fw-bold ">'+objeto[c]['nome'].toUpperCase()+'<br><i class="text-success">R$'+objeto[c]['valor']+'</i></p>'
                     document.getElementById('lista').innerHTML = lista
                     c+=1 
                 }
